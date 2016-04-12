@@ -13,7 +13,7 @@ export default class Sidebar extends Component {
     render() {
         return (
             <aside className={cx('sidebar')}>
-                <h1  className={cx('sidebar')}>Hello , Im a Sidebar</h1>
+                <h1>Hello, I'm a Sidebar</h1>
                 <List items={this.props.furniture}/>
             </aside>
         );
