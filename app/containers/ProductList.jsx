@@ -1,7 +1,7 @@
 /**
  * Created by Raj on 4/11/2016.
  */
-import React,{ Component }  from 'react';
+import React, { Component }  from 'react';
 import classNames from 'classnames/bind';
 import Sidebar from 'components/Sidebar';
 import styles from 'css/components/productList';
@@ -11,19 +11,17 @@ import styles from 'css/components/productList';
  *  i.e. We should keep this as the container that does the data-fetching
  *  and dispatching of actions if you decide to have any sub-components.
  */
-
+var myData=["Chair","Bed","Table"];
 class ProductList extends Component {
-
     render() {
         return (
             <div>
             <h1>Welcome to the Product List. </h1>
-            <Sidebar></Sidebar>
+                <p> Currently the products are listed in the Sidebar.</p>
+            <Sidebar furniture={myData}></Sidebar>
             </div>
         );
     }
 }
-//const ProductList = () => (<div>Welcome to the Product List. </div>
-//            <Sidebar></Sidebar>);
 
 export default ProductList;
