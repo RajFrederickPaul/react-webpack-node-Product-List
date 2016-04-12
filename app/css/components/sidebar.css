@@ -1,17 +1,17 @@
 @value global-radius, font-large, font-medium, font-small from '../settings';
-@value color-athens-gray, color-mercury, color-white, color-dodger-blue, color-crimson, color-dodger-blue '../common/colors.css';
+@value color-athens-gray, color-mercury, color-white, color-dodger-blue, color-crimson '../common/colors.css';
 
 .sidebar{
     position: fixed;
     text-align: center;
-    right:0px;
-    width:20%;
-    height:100%;
+    right:0;
+    width:15%;
     background-color: color-athens-gray;
     border: 2px solid color-mercury;
     border-radius: global-radius;
+    height:100%;
 }
 
-.h1{
+h1{
     background-color: color-dodger-blue;
 }
