@@ -2,7 +2,7 @@
 @value color-athens-gray, color-mercury, color-white, color-dodger-blue, color-crimson, color-bombay from '../common/colors.css';
 
 .sidebar{
-    position: fixed;
+    position: absolute;
     text-align: left;
     right:0;
     top:0;
@@ -13,13 +13,14 @@
     height:100%;
 }
 
-h1.sidebar{
+.sidebar h1{
     text-align: center;
     background: color-dodger-blue;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 480px) {
     .sidebar{
+        position:relative;
         width:100%;
         left:0;
     }
