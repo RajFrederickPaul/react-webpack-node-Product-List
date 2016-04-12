@@ -2,10 +2,7 @@
  * Created by Raj on 4/11/2016.
  */
 import React from 'react';
-import React, { Component, PropTypes } from 'react';
-import { connect } from 'react-redux';
 import classNames from 'classnames/bind';
-import SideBar from 'components/Sidebar';
 import styles from 'css/components/productList';
 
 /*
