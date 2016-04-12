@@ -2,11 +2,11 @@
 @value color-athens-gray, color-mercury, color-white, color-dodger-blue, color-crimson, color-bombay from '../common/colors.css';
 
 .sidebar{
-    position: absolute;
+    position: fixed;
     text-align: left;
     right:0;
     top:0;
-    width:15%;
+    width:20%;
     background-color: color-athens-gray;
     border: 2px solid color-mercury;
     border-radius: global-radius;
@@ -16,4 +16,11 @@
 h1.sidebar{
     text-align: center;
     background: color-dodger-blue;
+}
+
+@media screen and (max-width: 980px) {
+    .sidebar{
+        width:100%;
+        left:0;
+    }
 }

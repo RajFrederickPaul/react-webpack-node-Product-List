@@ -18,11 +18,10 @@ class ProductList extends Component {
         return (
             <div className={cx('productList')}>
                 <h1>Welcome to the Product List Page. </h1>
-                <div className={cx('productList')}>
                     <p> Currently, the products are listed in the Sidebar.</p>
                     <Sidebar furniture={myData}></Sidebar>
-                </div>
             </div>
+
         );
     }
 }
