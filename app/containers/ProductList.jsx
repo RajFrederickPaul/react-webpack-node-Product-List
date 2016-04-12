@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import classNames from 'classnames/bind';
+import Sidebar from 'components/Sidebar';
 import styles from 'css/components/productList';
 
 /*
@@ -10,6 +11,6 @@ import styles from 'css/components/productList';
  *  i.e. We should keep this as the container that does the data-fetching
  *  and dispatching of actions if you decide to have any sub-components.
  */
-const ProductList = () => <div>Welcome to the Product List. </div>;
+const ProductList = () => (<div>Welcome to the Product List. </div> <Sidebar></Sidebar>);
 
 export default ProductList;
