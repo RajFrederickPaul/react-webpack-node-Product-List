@@ -8,6 +8,7 @@ const cx = classNames.bind(styles);
 
 export default class Sidebar extends Component {
     constructor() {
+        super();
     }
 
     render() {
