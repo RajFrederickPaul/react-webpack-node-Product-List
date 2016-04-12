@@ -17,7 +17,7 @@ class ProductList extends Component {
     render() {
         return (
             <div>
-            <div>Welcome to the Product List. </div>
+            <h1>Welcome to the Product List. </h1>
             <Sidebar></Sidebar>
             </div>
         );
