@@ -14,17 +14,16 @@ import styles from 'css/components/productList';
 
 class ProductList extends Component {
 
-    constructor() {
-        super();
-    }
-
     render() {
         return (
-        <div>Welcome to the Product List. </div>
-        <Sidebar></Sidebar>
+            <div>
+            <div>Welcome to the Product List. </div>
+            <Sidebar></Sidebar>
+            </div>
         );
     }
 }
-//const ProductList = () => ;
+//const ProductList = () => (<div>Welcome to the Product List. </div>
+//            <Sidebar></Sidebar>);
 
 export default ProductList;
