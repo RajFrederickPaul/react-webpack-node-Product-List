@@ -1,3 +1,24 @@
+Read Me
+Author: Raj F Paul:
+
+1) Product List Page
+- Product List added to Containers. It now has a link on the Nav bar.
+- The page is mostly empty except for a header and some text.But it also uses the Sidebar component that was the second part of the assignment.
+- The Product list page current has a array containing a few strings. Thought of these as 'products'. They are currently passed to the Sidebar as props.
+- The respective css files are now in their respective folders.
+
+2) The Sidebar Component
+- The Sidebar uses absolute positioning to be on the right and top of its parent(position:relative)container which is currently the Product List Div.
+If it weren't,it would now be at the top and right of the whole page.
+- The Sidebar uses a flex display to stretch to the bottom of the page.
+- As mentioned earlier, The Sidebar gets props which are then displayed using List Component which renders a list.
+- I didn't used bootstrap but the page is somewhat responsive using media queries. Below 600px width, The Sidebar becomes central but after that, its width will
+ be 20% of the screen.
+
+Demo Link: [https://rfptest12.herokuapp.com/productList](https://rfptest12.herokuapp.com/productList)
+
+Below,is the priginal ReadMe of the repository.
+
 # React Webpack Node
 
 [![Dependency Status][dep-status-img]][dep-status-link] [![devDependency Status][dev-dep-status-img]][dev-dep-status-link]
