@@ -21,6 +21,7 @@ class ProductList extends Component {
                 <p> Currently, the products are listed in the Sidebar.</p>
                 <Sidebar furniture={myData}></Sidebar>
             </div>
+
         );
     }
 }
